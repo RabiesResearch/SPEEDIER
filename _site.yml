@@ -1,0 +1,22 @@
+name: "my-website"
+output_dir: "."
+# Produce navigation bar at the top of the screen with the menus
+navbar:
+  # Title appears in the top left of the navbar
+  title: "SPEEDIER"
+  # Arrange items on the left side of the navbar (to the right of the title)
+  left:
+    - text: "Home"
+      href: index.html # The page that will appear when the name on the navbar is clicked
+    - text: "Project Information" # Name that appears on the navbar
+      href: Phil_overview.html
+  # Arrange items on the right side of the navbar (social links)
+  right:
+    # The contact.html script currently holds a link to email Katie Hampson
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    # Currently links to the @RabidBites Twitter page
+    - icon: fa-twitter fa-lg
+output:
+  html_document:
+    theme: united
