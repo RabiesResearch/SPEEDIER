@@ -8,7 +8,7 @@ navbar:
   left:
     - text: "Home"
       href: index.html # The page that will appear when the name on the navbar is clicked
-    - text: "Project Information" # Name that appears on the navbar
+    - text: "Background" # Name that appears on the navbar
       href: Phil_overview.html
     - text: "Plot Testing"
       href: plot_test.html
