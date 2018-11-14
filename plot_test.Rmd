@@ -1,0 +1,16 @@
+---
+title: ""
+---
+
+## Plot Testing  
+
+### Population map  
+  
+```{r droplink, echo=FALSE}
+# Create table
+table_site <- c("html/municipality_pop_map_2018.html",
+                "html/village_pop_map_2018.html")
+names(table_site) <- c("2018 - Municipality", "2018 - Bangarey")
+
+bsselect(table_site, type = "iframe", frame_height=550, style="btn-primary", show_tick=TRUE, height=0)
+```

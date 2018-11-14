@@ -22,6 +22,10 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.3/htmlwidgets.js"></script>
+<link href="site_libs/bootstrap-select-1.12.1/dist/css/bootstrap-select.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-select-1.12.1/dist/js/bootstrap-select.min.js"></script>
+<script src="site_libs/bsselect-binding-0.1.0/bsselect.js"></script>
 <link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
 <script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
 <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
@@ -219,21 +223,25 @@ $(document).ready(function () {
 </div>
 
 
-<ol class="breadcrumb" style="background-color:white;">
-<li class="breadcrumb-item">
-<a href="index.html">Home</a>
-</li>
-<li class="breadcrumb-item active">
-Project Information
-</li>
-</ol>
-<div id="project-information" class="section level1">
-<h1>Project Information</h1>
-<div style="display: inline-block; ">
-<p><img src="img/phil_study_map.png" style="width:300px; float: left; padding: 0 20px 20px 0; vertical-align: middle;"/></p>
-<div style="width: 100%; height: 30vh; display: table-cell; vertical-align: middle; margin: auto 0;">
+<div id="plot-testing" class="section level2">
+<h2>Plot Testing</h2>
+<div id="population-map" class="section level3">
+<h3>Population map</h3>
 
-</div>
+<html>
+<select id="GOKh1fJYJs" class="selectpicker" data-dropdown-align-right="false" data-dropup-auto="true" data-header="false" data-live-search="false" data-live-search-style="contains" data-show-tick="true" data-width="false" data-size="auto" data-style="btn-primary"><option value="html/municipality_pop_map_2018.html">2018 - Municipality</option>
+<option value="html/village_pop_map_2018.html">2018 - Bangarey</option></select>
+<iframe src="html/municipality_pop_map_2018.html" frameborder="0" height="550" width="100%" id="Rf4U42OVPG"></iframe>
+<script>$(document).ready(function(){
+                   $("#GOKh1fJYJs").change(function(){
+                   $("#Rf4U42OVPG").attr("src",$(this).val());
+
+                   });
+
+    });</script>
+</html>
+<div id="htmlwidget-bb7abc87ab533001b305" style="width:672px;height:0px;" class="bsselect html-widget" width="672" height="0"></div>
+<script type="application/json" data-for="htmlwidget-bb7abc87ab533001b305">{"x":[],"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 

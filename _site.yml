@@ -10,6 +10,8 @@ navbar:
       href: index.html # The page that will appear when the name on the navbar is clicked
     - text: "Project Information" # Name that appears on the navbar
       href: Phil_overview.html
+    - text: "Plot Testing"
+      href: plot_test.html
   # Arrange items on the right side of the navbar (social links)
   right:
     # The contact.html script currently holds a link to email Katie Hampson
