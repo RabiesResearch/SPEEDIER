@@ -4,9 +4,23 @@ title: ""
 
 ## Plot Testing  
 
+### Incidence plot {.tabset}
+
+#### Mindoro
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Mindoro")
+```
+
+#### Romblon
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Romblon")
+```
+
 ### Population map  
   
-```{r droplink, echo=FALSE}
+```{r droplink, echo=FALSE, message=FALSE, warning=FALSE}
 # Create table
 table_site <- c("html/municipality_pop_map_2018.html",
                 "html/village_pop_map_2018.html")
