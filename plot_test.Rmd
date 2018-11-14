@@ -4,19 +4,35 @@ title: ""
 
 ## Plot Testing  
 
+<br>
+
 ### Incidence plot {.tabset}
 
-#### Mindoro
+#### Oriental Mindoro
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-PHL_incidence_plot(province="Mindoro")
+PHL_incidence_plot(province="Oriental Mindoro")
 ```
+
+***
+
+#### Occidental Mindoro
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Occidental Mindoro")
+```
+
+*** 
 
 #### Romblon
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 PHL_incidence_plot(province="Romblon")
 ```
+
+***
+
+<br>
 
 ### Population map  
   
