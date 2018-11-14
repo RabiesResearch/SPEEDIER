@@ -24,10 +24,18 @@ PHL_incidence_plot(province="Occidental Mindoro")
 
 *** 
 
-#### Romblon
+#### Romblon (Annual)
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-PHL_incidence_plot(province="Romblon")
+PHL_incidence_plot(province="Romblon", timeframe="Year")
+```
+
+***
+
+#### Romblon (Quarterly)
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Romblon", timeframe="Quarterly")
 ```
 
 ***
