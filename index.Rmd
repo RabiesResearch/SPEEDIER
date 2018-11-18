@@ -1,5 +1,5 @@
 ---
-title: ""
+title: ''
 ---
 
 <br>
@@ -19,8 +19,7 @@ title: ""
 
 </div>
 
-<br>
-## Background
+### Background
 
 Rabies is endemic in the Philippines where it causes 200-250 deaths each year. The national control programme has reduced rabies incidence, but use of life-saving post exposure prophylaxis (PEP) is still costly and surveillance needs strengthening to confirm and maintain freedom in areas where control efforts have eliminated rabies.
 
