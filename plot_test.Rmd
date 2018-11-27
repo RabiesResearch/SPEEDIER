@@ -8,22 +8,6 @@ title: ""
 
 ### Incidence plot {.tabset}
 
-#### Oriental Mindoro
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-PHL_incidence_plot(province="Oriental Mindoro")
-```
-
-***
-
-#### Occidental Mindoro
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-PHL_incidence_plot(province="Occidental Mindoro")
-```
-
-*** 
-
 #### Romblon (Annual)
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
@@ -36,6 +20,14 @@ PHL_incidence_plot(province="Romblon", timeframe="Year")
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 PHL_incidence_plot(province="Romblon", timeframe="Quarterly")
+```
+
+***
+
+#### Oriental Mindoro
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Oriental Mindoro")
 ```
 
 ***
