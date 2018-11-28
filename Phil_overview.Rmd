@@ -16,13 +16,14 @@ title: ""
 <br>
 
 <!--Create a block for image and caption on left hand side of page-->
-<div style="float: left; width: 50%">
+<div style="float: left; width: 40%">
 <figure>
 <!--Set image caption-->
 <figcaption>
 <!--Set as italic-->
 <i>
-Provinces of the Philippines that have met the target of 1 ABTC/100,000 population; Data taken from <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0199186" target="blank">Amparo et al (2018) </a>
+Provinces of the Philippines that have met the target of  
+1 ABTC/100,000 population; Data taken from <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0199186" target="blank">Amparo et al (2018) </a>
 </i>
 </figcaption>
 <!--Add image-->
@@ -31,7 +32,7 @@ Provinces of the Philippines that have met the target of 1 ABTC/100,000 populati
 </div>
 
 <!--Create a block for text to appear on the right side of page, next to image-->
-<div style="float: right; width: 50%">
+<div style="float: right; width: 60%">
 </div>
 
 
