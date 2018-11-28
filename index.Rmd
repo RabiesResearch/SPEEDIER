@@ -11,7 +11,7 @@ title: ''
 
 <div style="display: inline-block; ">
 
-<img src="img/phil_study_map.png" style="width:250px; float: right; padding: 0 0 0 0; vertical-align: middle;"/>
+<img src="img/phil_study_map.png" style="width:20%; float: right; padding: 0 0 0 0; vertical-align: middle;"/>
 
 <div style="width: 100%; height: 30vh; display: table-cell; vertical-align: middle; margin: auto 0;">
 
