@@ -6,29 +6,61 @@ title: ""
 
 <br>
 
-### Incidence plot {.tabset}
+### Romblon plots {.tabset}
 
-#### Romblon (Annual)
+#### Treatment (Annual)
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-PHL_incidence_plot(province="Romblon", timeframe="Year")
+PHL_incidence_plot(province="Romblon", timeframe="Year", type="treatment")
 ```
 
 ***
 
-#### Romblon (Quarterly)
+#### Treatment (Quarterly)
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-PHL_incidence_plot(province="Romblon", timeframe="Quarterly")
+PHL_incidence_plot(province="Romblon", timeframe="Quarterly", type="treatment")
 ```
 
 ***
 
-#### Oriental Mindoro
+#### Biting animal (Annual)
+
+<div style="float: left; width: 50%">
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-PHL_incidence_plot(province="Oriental Mindoro")
+PHL_incidence_plot(province="Romblon", timeframe="Year", type="biter")
 ```
+
+</div>
+
+<div style="float: right; width: 50%">
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Romblon", timeframe="Year", type="biter", by_p=TRUE)
+```
+
+</div>
+
+***
+
+#### Biting animal (Quarterly)
+
+<div style="float: left; width: 50%">
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Romblon", timeframe="Quarterly", type="biter")
+```
+
+</div>
+
+<div style="float: right; width: 50%">
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Romblon", timeframe="Quarterly", type="biter", by_p=TRUE)
+```
+
+</div>
 
 ***
 
