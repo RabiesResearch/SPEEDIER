@@ -32,7 +32,7 @@ James Esguerra: `r PHL_embed_file(filename="Day1_StakeholderAnalysis", filetype=
 </div>
 
 <!--Create a block for text to appear on the right side of page-->
-<div style="float: left; height: 35vh; width: 29%">
+<div style="float: left; height: 35vh; width: 27%">
 
 #### Day 2
   
@@ -48,15 +48,25 @@ Nai Rui Chng: `r PHL_embed_file(filename="Day2_Chng_ProcessEvaluation", filetype
 </div>
 
 <!--Create a block for text to appear on the left side of page-->
-<div style="float: left; height: 35vh; width: 32%">
+<div style="float: left; height: 35vh; width: 34%">
 
 #### Day 4
   
 Katie Hampson: `r PHL_embed_file(filename="Day4_Hampson_GeneticsIntro", filetype="pdf", label="Introduction to Genetics")`  
 Roman Biek: `r PHL_embed_file(filename="Day4_Biek_GenomicSurveillance", filetype="pdf", label="Genomic Surveillance")`  
-Kirstyn Brunker: `r PHL_embed_file(filename="Day4_Brunker_GenomeSeq", filetype="pdf", label="Genomic and Genetic Sequencing")`  
+Kirstyn Brunker: `r PHL_embed_file(filename="Day4_Brunker_GenomeSeq", filetype="pdf", label="Genomic/Genetic Sequencing")`  
+Josh Singer: `r PHL_embed_file(filename="Day4_Singer_RABVGLUE", filetype="pdf", label="RABV-GLUE")`  
 
 </div>
 
+***  
+
 <div style="display: inline-block; ">
+
+### Other Documents
+
+<br>
+
+Card Activity: `r PHL_embed_file(filename="Day1_CardActivity", filetype="pdf", label="19th Nov 2018")`  
+
 </div>
