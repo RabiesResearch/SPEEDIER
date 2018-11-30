@@ -8,18 +8,29 @@ title: ""
 
 ### Romblon plots {.tabset}
 
-#### Treatment (Annual)
+#### Overall Treatment Type
+
+<div style="float: left; width: 50%">
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 PHL_incidence_plot(province="Romblon", timeframe="Year", type="treatment")
 ```
 
-***
-
-#### Treatment (Quarterly)
+</div>
+<div style="float: right; width: 50%">
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 PHL_incidence_plot(province="Romblon", timeframe="Quarterly", type="treatment")
+```
+
+</div>
+
+***
+
+#### Treatment by ABTC
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Romblon", timeframe="Year", type="treatment", by_abtc=TRUE)
 ```
 
 ***
