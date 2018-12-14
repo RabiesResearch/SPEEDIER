@@ -26,3 +26,4 @@ output:
     theme: united
     include:
       in_header: header.html
+    css: style.css
