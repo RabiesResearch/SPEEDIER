@@ -66,3 +66,13 @@ a:hover {
     .map_text {
     width: 70%; float: left; vertical-align: middle; margin: auto 0; }
 }
+
+.navbar {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+}
+
+/* Add a top margin to avoid content overlay */
+.main {
+  margin-top: 30px;
+}
