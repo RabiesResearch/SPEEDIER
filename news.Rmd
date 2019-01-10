@@ -1,0 +1,25 @@
+---
+title: ""
+---
+
+<!--Add breadcrumbs-->
+<ol class="breadcrumb" style="background-color:white;">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item active">News</li>
+</ol>
+
+<!--Create a block for embedded Tweet to appear on the right side of page-->
+<div style="float: right; width: 30%">
+
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en-gb"><p lang="en" dir="ltr">Hence, &quot;there is an opportunity for <a href="https://twitter.com/hashtag/SPEEDIERrabies?src=hash&amp;ref_src=twsrc%5Etfw">#SPEEDIERrabies</a> to make use of genomic data to guide policy-making on Rabies control in the Philippines&quot; <a href="https://twitter.com/hampson_katie?ref_src=twsrc%5Etfw">@hampson_katie</a> This, could potentially help Philippines meet the <a href="https://twitter.com/hashtag/ZeroBy30?src=hash&amp;ref_src=twsrc%5Etfw">#ZeroBy30</a> target and help <a href="https://twitter.com/hashtag/EndRabies?src=hash&amp;ref_src=twsrc%5Etfw">#EndRabies</a>!</p>&mdash; Nai Rui Chng (@nairuichng) <a href="https://twitter.com/nairuichng/status/1065635424637542400?ref_src=twsrc%5Etfw">22 November 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+<!--Create a block for text to appear on the left side of page-->
+<div style="float: left; width: 70%">
+
+### News  
+  
+<em><p class="text-primary">Posts, reflections and updates written by SPEEDIER team members and collaborators coming soon. </p></em>
+
+</div>
