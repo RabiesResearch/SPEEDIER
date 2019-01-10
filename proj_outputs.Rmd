@@ -1,0 +1,16 @@
+---
+title: ""
+---
+
+<!--Add breadcrumbs-->
+<ol class="breadcrumb" style="background-color:white;">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item">Project Activities</li>
+  <li class="breadcrumb-item active">Outputs</li>
+</ol>
+
+### Outputs  
+  
+SPEEDIER Project Poster: `r PHL_embed_file(filename="Poster_Oct18_v4", filetype="pdf", label="Oct 2018")`
+
+</div>
