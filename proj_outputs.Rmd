@@ -10,7 +10,6 @@ title: ""
 </ol>
 
 ### Outputs  
-  
+
 SPEEDIER Project Poster: `r PHL_embed_file(filename="Poster_Oct18_v4", filetype="pdf", label="Oct 2018")`
 
-</div>
