@@ -2,15 +2,25 @@
 title: ""
 ---
 
-<!--Add breadcrumbs-->
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+## Project Timeline
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-  <li class="breadcrumb-item">Project Activities</li>
+  <li class="breadcrumb-item">The Project</li>
   <li class="breadcrumb-item active">Project Timeline</li>
 </ol>
+</div>
+</div>
+<hr class="hr-orange">
 
-### Project Timeline  
-  
+<!--Begin page content!-->
+
+<br>
+
 <b>  November 2018</b>  
 &emsp;&emsp; Project Inaugural Meetings   
   

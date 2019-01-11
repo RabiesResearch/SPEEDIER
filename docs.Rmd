@@ -2,17 +2,23 @@
 title: ""
 ---
 
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+## Documents
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-  <li class="breadcrumb-item active">Document Storage</li>
+  <li class="breadcrumb-item active">Documents</li>
 </ol>
+</div>
+</div>
+<hr class="hr-orange">
 
 <br>
 
-# Document Storage
-
-***
-
+<!--Begin page content!-->
 ### Presentations from 19th-23rd November 2018
 
 <br>
@@ -60,7 +66,7 @@ Rob Gifford: <a href="https://nextstrain.org/" target="blank">NextStrain</a>
 
 </div>
 
-***  
+<hr class="hr-grey">
 
 <div style="display: inline-block; ">
 

@@ -2,4 +2,24 @@
 title: ""
 ---
 
-### Project Images
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+## Project Images
+</div>
+<div style="float: right;">
+<ol class="breadcrumb" style="background-color:white;">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item">The Project</li>
+  <li class="breadcrumb-item active">Project Images</li>
+</ol>
+</div>
+</div>
+<hr class="hr-orange">
+
+<br>
+
+<!--Begin page content!-->
+<em><p class="text-primary">
+Images coming soon.
+</p></em>

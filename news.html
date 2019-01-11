@@ -282,7 +282,12 @@ $(document).ready(function () {
 </div>
 
 
-<!--Add breadcrumbs-->
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+<h2 id="news">News</h2>
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
 <li class="breadcrumb-item">
 <a href="index.html">Home</a>
@@ -291,6 +296,11 @@ $(document).ready(function () {
 News
 </li>
 </ol>
+</div>
+</div>
+<hr class="hr-orange">
+<p><br></p>
+<!--Begin page content!-->
 <!--Create a block for embedded Tweet to appear on the right side of page-->
 <div style="float: right; width: 30%">
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en-gb">
@@ -303,10 +313,9 @@ Hence, “there is an opportunity for <a href="https://twitter.com/hashtag/SPEED
 </div>
 <!--Create a block for text to appear on the left side of page-->
 <div style="float: left; width: 70%">
-<h3 id="news">News</h3>
 <em>
 <p class="text-primary">
-Posts, reflections and updates written by SPEEDIER team members and collaborators coming soon.
+Posts and updates written by SPEEDIER team members and collaborators coming soon.
 </p>
 <p></em></p>
 </div>

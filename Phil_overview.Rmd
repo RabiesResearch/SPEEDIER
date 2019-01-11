@@ -2,18 +2,29 @@
 title: ""
 ---
 
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+## Background
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
   <li class="breadcrumb-item active">Background</li>
 </ol>
-
-# Background {.tabset}
-
-<br>
-
-
+</div>
+</div>
+<hr class="hr-orange">
 
 <br>
+
+<!--Begin page content!-->
+
+### Rabies in the Philippines
+
+<em><p class="text-primary">Background information coming soon. </p></em>
+
+<br><br>
 
 <!--Create a block for image and caption on left hand side of page-->
 <div style="float: left; width: 40%">

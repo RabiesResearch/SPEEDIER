@@ -2,14 +2,25 @@
 title: ""
 ---
 
-<!--Add breadcrumbs-->
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+## Project Outputs
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-  <li class="breadcrumb-item">Project Activities</li>
-  <li class="breadcrumb-item active">Outputs</li>
+  <li class="breadcrumb-item">The Project</li>
+  <li class="breadcrumb-item active">Project Outputs</li>
 </ol>
 
-### Outputs  
+</div>
+</div>
+<hr class="hr-orange">
+
+<br>
+
+<!--Begin page content!-->
 
 SPEEDIER Project Poster: `r PHL_embed_file(filename="Poster_Oct18_v4", filetype="pdf", label="Oct 2018")`
 
