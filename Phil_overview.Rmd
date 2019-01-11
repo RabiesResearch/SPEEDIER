@@ -5,7 +5,7 @@ title: ""
 <!--Create a block for title and breadcrumbs to appear on same line-->
 <div style="width: 100%; display: inline-block;">
 <div style="float: left;">
-## Background
+# Background
 </div>
 <div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
@@ -67,7 +67,10 @@ Incidence of probable human Rabies exposures/100,000 population (2008-2013 and 2
 </figure>
 </div>
 
-***
+<hr class="hr-grey">
+
+<br>
+
 #### For more information on Rabies in the Philippines, please explore the following publications:
 
 <a href="https://www.sciencedirect.com/science/article/pii/S0264410X1831627X?via%3Dihub" target="blank">Rysava et al. (2018)</a> On the path to rabies elimination: the need for risk assessments to improve administration of post-exposure prophylaxis. <em>Vaccine. </em>
