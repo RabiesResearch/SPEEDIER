@@ -18,9 +18,9 @@ navbar:
         - text: "Results"
           icon: fa-bar-chart fa-lg
           href: proj_results.html
-        - text: "Images"
+        - text: "Gallery"
           icon: fa-camera fa-lg
-          href: proj_img.html
+          href: proj_gallery.html
         - text: "Timeline"
           icon: fa-calendar-o
           href: proj_timeline.html

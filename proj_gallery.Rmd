@@ -1,0 +1,198 @@
+---
+title: ""
+---
+
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+# Project Gallery
+</div>
+<div style="float: right;">
+<ol class="breadcrumb" style="background-color:white;">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item">The Project</li>
+  <li class="breadcrumb-item active">Project Gallery</li>
+</ol>
+</div>
+</div>
+<hr class="hr-orange">
+
+<br>
+
+<!--Begin page content!-->
+
+<!--Add gallery for Glasgow meetings!-->
+<h3>Project Inaugural Meetings, Glasgow </h3>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/glasgow_1.png">
+    <img src="img/gallery/glasgow_1.png" alt="SPEEDIER group, Graham Kerr Building" width="600" height="400">
+    </a>
+    <div class="desc"><em>SPEEDIER group</em><br> Graham Kerr Building</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/glasgow_2.png">
+    <img src="img/gallery/glasgow_2.png" alt="Katie Hampson, Introduction to week" width="600" height="400">
+    </a>
+    <div class="desc"><em>Katie Hampson</em><br> Introduction to week</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/glasgow_3.png">
+    <img src="img/gallery/glasgow_3.png" alt="Betsy Miranda, Regional Backdrop" width="600" height="400">
+    </a>
+    <div class="desc"><em>Betsy Miranda</em><br> Regional Backdrop</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/glasgow_4.png">
+    <img src="img/gallery/glasgow_4.png" alt="Jobin Maestro, Local Backdrop" width="600" height="400">
+    </a>
+    <div class="desc"><em>Jobin Maestro</em><br> Local Backdrop</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/glasgow_5.png">
+    <img src="img/gallery/glasgow_5.png" alt="Roman Biek, Genomic Surveillance" width="600" height="400">
+    </a>
+    <div class="desc"><em>Roman Biek</em><br> Genomic Surveillance</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/glasgow_6.png">
+    <img src="img/gallery/glasgow_6.png" alt="James Esguerra, Theory of Change" width="600" height="400">
+    </a>
+    <div class="desc"><em>James Esguerra</em><br> Theory of Change</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/glasgow_7.png">
+    <img src="img/gallery/glasgow_7.png" alt="Caroline Trotter, Health Economics" width="600" height="400">
+    </a>
+    <div class="desc"><em>Caroline Trotter</em><br> Health Economics</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/glasgow_8.png">
+    <img src="img/gallery/glasgow_8.png" alt="Nai Rui Chng, Process Evaluation" width="600" height="400">
+    </a>
+    <div class="desc"><em>Nai Rui Chng</em><br> Process Evaluation</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/glasgow_9.png">
+    <img src="img/gallery/glasgow_9.png" alt="Kirstyn Brunker, Genomic & Genetic sequencing" width="600" height="400">
+    </a>
+    <div class="desc"><em>Kirstyn Brunker</em><br> Genomic & Genetic sequencing</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/glasgow_10.png">
+    <img src="img/gallery/glasgow_10.png" alt="Rob Gifford, NextStrain" width="600" height="400">
+    </a>
+    <div class="desc"><em>Rob Gifford</em><br> NextStrain</div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/glasgow_11.png">
+    <img src="img/gallery/glasgow_11.png" alt="Visit to Balmaha & Conic Hill" width="600" height="400">
+    </a>
+    <div class="desc">Visit to Balmaha & Conic Hill</div>
+  </div>
+</div>
+<div class="clearfix"></div>
+
+<br>
+<hr class="hr-grey">
+
+<!--Add gallery for Governor meeting!-->
+<h3>Governor Meeting, Philippines </h3>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/governor_1.png">
+    <img src="img/gallery/governor_1.png" alt="" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/governor_2.png">
+    <img src="img/gallery/governor_2.png" alt="" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/governor_3.png">
+    <img src="img/gallery/governor_3.png" alt="" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery-empty">
+  </div>
+</div>
+<div class="clearfix"></div>
+
+<br>
+<hr class="hr-grey">
+
+<!--Add gallery for FETPAFI meeting!-->
+<h3>FETPAFI Meeting, Philippines </h3>
+
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/fetpafi_1.png">
+    <img src="img/gallery/fetpafi_1.png" alt="" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/fetpafi_2.png">
+    <img src="img/gallery/fetpafi_2.png" alt="" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/fetpafi_3.png">
+    <img src="img/gallery/fetpafi_3.png" alt="" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/fetpafi_4.png">
+    <img src="img/gallery/fetpafi_4.png" alt="" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="img/gallery/fetpafi_5.png">
+    <img src="img/gallery/fetpafi_5.png" alt="" width="600" height="400">
+    </a>
+    <div class="desc"></div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
