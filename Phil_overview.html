@@ -197,24 +197,70 @@ $(document).ready(function () {
   <a href="Phil_overview.html">Background</a>
 </li>
 <li>
-  <a href="Activities_outputs.html">Activities &amp; Outputs</a>
+  <a href="news.html">News</a>
 </li>
-<li>
-  <a href="plot_test.html">Plot Testing</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
+<li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-globe fa-lg"></span>
-     
+    The Project
      
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="https://rabiesresearch.shinyapps.io/shiny_hub/">Central Hub</a>
+      <a href="proj_results.html">
+        <span class="fa fa-bar-chart fa-lg"></span>
+         
+        Results
+      </a>
     </li>
+    <li>
+      <a href="proj_gallery.html">
+        <span class="fa fa-camera fa-lg"></span>
+         
+        Gallery
+      </a>
+    </li>
+    <li>
+      <a href="proj_timeline.html">
+        <span class="fa fa-calendar-o"></span>
+         
+        Timeline
+      </a>
+    </li>
+    <li class="divider"></li>
+    <li>
+      <a href="proj_outputs.html">
+        <span class="fa fa-file-text"></span>
+         
+        Outputs
+      </a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="proj_team.html">The Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:Katie.Hampson@glasgow.ac.uk">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-globe fa-lg"></span>
+     
+    Related Projects
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="https://rabiesresearch.shinyapps.io/shiny_hub/">Central Research Hub</a>
+    </li>
+    <li class="divider"></li>
     <li>
       <a href="https://rabiesresearch.github.io/Serengeti/">Serengeti District</a>
     </li>
@@ -222,18 +268,6 @@ $(document).ready(function () {
       <a href="https://rabiesresearch.github.io/Ngorongoro/">Ngorongoro District</a>
     </li>
   </ul>
-</li>
-<li>
-  <a href="contact.html">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a>
-    <span class="fa fa-twitter fa-lg"></span>
-     
-  </a>
 </li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -248,6 +282,15 @@ $(document).ready(function () {
 </div>
 
 
+<!--Add a loading bar!-->
+<script src="pace.js"></script>
+<p><link href="pace_loadbar_loading.css" rel="stylesheet" /></p>
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+<h1 id="background">Background</h1>
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
 <li class="breadcrumb-item">
 <a href="index.html">Home</a>
@@ -256,10 +299,19 @@ $(document).ready(function () {
 Background
 </li>
 </ol>
-<div id="background" class="section level1 tabset">
-<h1>Background</h1>
+</div>
+</div>
+<hr class="hr-orange">
 <p><br></p>
-<p><br></p>
+<!--Begin page content!-->
+<div id="rabies-in-the-philippines" class="section level3">
+<h3>Rabies in the Philippines</h3>
+<em>
+<p class="text-primary">
+Background information coming soon.
+</p>
+<p></em></p>
+<p><br><br></p>
 <!--Create a block for image and caption on left hand side of page-->
 <div style="float: left; width: 40%">
 <figure>
@@ -292,6 +344,13 @@ Background
 <img src="img/background_maps.jpg" style="width: 80%; float: center; padding: 0 0 0 0; vertical-align: middle;"/>
 </center>
 </figure>
+</div>
+<hr class="hr-grey">
+<p><br></p>
+<div id="for-more-information-on-rabies-in-the-philippines-please-explore-the-following-publications" class="section level4">
+<h4>For more information on Rabies in the Philippines, please explore the following publications:</h4>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0264410X1831627X?via%3Dihub" target="blank">Rysava et al. (2018)</a> On the path to rabies elimination: the need for risk assessments to improve administration of post-exposure prophylaxis. <em>Vaccine. </em></p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4678884/" target="blank">Ferguson et al. (2015)</a> Heterogeneity in the spread and control of disease: consequences for the elimination of canine rabies. <em>Scientific Reports 5, 18232.</em></p>
 </div>
 </div>
 

@@ -10,25 +10,40 @@ navbar:
       href: index.html # The page that will appear when the name on the navbar is clicked
     - text: "Background" # Name that appears on the navbar
       href: Phil_overview.html
-    - text: "Activities & Outputs"
-      href: Activities_outputs.html
-    - text: "Plot Testing"
-      href: plot_test.html
+    - text: "News"
+      href: news.html
+    - text: "The Project"
+      href: proj_background.html
+      menu:
+        - text: "Results"
+          icon: fa-bar-chart fa-lg
+          href: proj_results.html
+        - text: "Gallery"
+          icon: fa-camera fa-lg
+          href: proj_gallery.html
+        - text: "Timeline"
+          icon: fa-calendar-o
+          href: proj_timeline.html
+        - text: "---------"
+        - text: "Outputs"
+          icon: fa-file-text
+          href: proj_outputs.html
+    - text: "The Team"
+      href: proj_team.html
   # Arrange items on the right side of the navbar (social links)
   right:
-    - icon: fa-globe fa-lg
+    - icon: fa-envelope fa-lg
+      href: mailto:Katie.Hampson@glasgow.ac.uk
+    - text: "Related Projects"
+      icon: fa-globe fa-lg
       menu:
-        - text: "Central Hub"
+        - text: "Central Research Hub"
           href: https://rabiesresearch.shinyapps.io/shiny_hub/
+        - text: "---------"
         - text: "Serengeti District"
           href: https://rabiesresearch.github.io/Serengeti/
         - text: "Ngorongoro District"
           href: https://rabiesresearch.github.io/Ngorongoro/
-    # The contact.html script currently holds a link to email Katie Hampson
-    - icon: fa-envelope fa-lg
-      href: contact.html
-    # Currently links to the @RabidBites Twitter page
-    - icon: fa-twitter fa-lg
 output:
   html_document:
     theme: united

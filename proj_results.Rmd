@@ -1,0 +1,92 @@
+---
+title: ""
+---
+
+<!--Add a loading bar!-->
+<script src="pace.js"></script>
+<link href="pace_loadbar_loading.css" rel="stylesheet" />
+
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+# Project Results
+</div>
+<div style="float: right;">
+<ol class="breadcrumb" style="background-color:white;">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item">The Project</li>
+  <li class="breadcrumb-item active">Project Results</li>
+</ol>
+</div>
+</div>
+<hr class="hr-orange">
+
+<br>
+
+<!--Begin page content!-->
+
+### Current situation in Romblon {.tabset}
+
+#### Overall Treatment Type
+
+<div style="float: left; width: 50%">
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Romblon", timeframe="Year", type="treatment")
+```
+
+</div>
+<div style="float: right; width: 50%">
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Romblon", timeframe="Quarterly", type="treatment")
+```
+
+</div>
+
+<hr class="hr-grey">
+
+<br>
+
+#### Treatment by ABTC
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Romblon", timeframe="Year", type="treatment", by_abtc=TRUE)
+```
+
+<hr class="hr-grey">
+
+<br>
+
+#### Biting animal
+
+<div style="float: left; width: 50%">
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Romblon", timeframe="Year", type="biter")
+```
+
+</div>
+
+<div style="float: right; width: 50%">
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+PHL_incidence_plot(province="Romblon", timeframe="Quarterly", type="biter")
+```
+
+</div>
+
+<hr class="hr-grey">
+
+<br>
+
+### Population map  
+  
+```{r droplink, echo=FALSE, message=FALSE, warning=FALSE}
+# Create table
+table_site <- c("html/municipality_pop_map_2018.html",
+                "html/village_pop_map_2018.html")
+names(table_site) <- c("Municipality", "Barangay")
+
+bsselect(table_site, type = "iframe", frame_height=550, style="btn-primary", show_tick=TRUE, height=0)
+```
