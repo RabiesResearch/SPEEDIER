@@ -32,27 +32,27 @@ timeline, unless on a small screen, whereby all bubbles appear on the right!-->
 <!--Add bubble to left of timeline!-->
 <div class="tl_container left">
 <div class="content">
-<h3>November 2018</h3>
-<p>Project Inaugural Meetings</p>
+<h3 class="tl_header">November 2018</h3>
+<p>Inaugural Project Meetings, held at the University of Glasgow, UK</p>
 </div>
 </div>
 <!--Add bubble to right of timeline!-->
 <div class="tl_container right">
 <div class="content">
-<h3 style="font-weight: bold; color: #b83d00">January 2019</h3>
-<p>Start of Philippines Grant</p>
+<h3 class="tl_header">January 2019</h3>
+<p>Official start to the Project grant in the Philippines</p>
 </div>
 </div>
 <div class="tl_container left">
 <div class="content">
-<h3>March 2019</h3>
-<p>RITM Rabies Conference</p>
-<p>Sequencing and Phylogenetics training workshop, led by <em>Dr. Kirstyn Brunker</em></p>
+<h3 class="tl_header">March 2019</h3>
+<p>Research Institute for Tropical Medicine (RITM) Rabies Conference, held in the Philippines</p>
+<p>Sequencing and Phylogenetics training workshop, held in the Philippines and led by <em>Dr. Kirstyn Brunker</em></p>
 </div>
 </div>
 <div class="tl_container right">
 <div class="content">
-<h3>April 2019</h3>
+<h3 class="tl_header">April 2019</h3>
 <p>Planned start of feasibility study</p>
 </div>
 </div>

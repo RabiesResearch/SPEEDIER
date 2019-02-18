@@ -82,6 +82,12 @@ a:hover {
   border: 1px solid #D94801;
 }
 
+.ul_orange {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #D94801; /* Safari */
+  text-decoration-color: #D94801;
+}
+
 .hr-grey {
   border: 0.5px dotted #c7c7c7;
 }
@@ -258,4 +264,9 @@ div.desc {
   .right {
     left: 0%;
   }
+}
+
+.tl_header{
+  font-weight: bold;
+  color: #b83d00
 }
