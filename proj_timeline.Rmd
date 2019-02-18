@@ -21,26 +21,41 @@ title: ""
 </div>
 <hr class="hr-orange">
 
+<br>
+
 <!--Begin page content!-->
 
+
+<!--Add timeline object - this creates bubbles either side of the center positioned
+timeline, unless on a small screen, whereby all bubbles appear on the right!-->
+<div class="timeline">
+<!--Add bubble to left of timeline!-->
+<div class="tl_container left">
+<div class="content">
+<h3>November 2018</h3>
+<p>Project Inaugural Meetings</p>
+</div>
+</div>
+<!--Add bubble to right of timeline!-->
+<div class="tl_container right">
+<div class="content">
+<h3 style="font-weight: bold; color: #b83d00">January 2019</h3>
+<p>Start of Philippines Grant</p>
+</div>
+</div>
+<div class="tl_container left">
+<div class="content">
+<h3>March 2019</h3>
+<p>RITM Rabies Conference</p>
+<p>Sequencing and Phylogenetics training workshop, led by <em>Dr. Kirstyn Brunker</em></p>
+</div>
+</div>
+<div class="tl_container right">
+<div class="content">
+<h3>April 2019</h3>
+<p>Planned start of feasibility study</p>
+</div>
+</div>
+</div>
+
 <br>
-
-<b>November 2018</b>  
-&emsp;&emsp; Project Inaugural Meetings   
-
-<br>
-
-<b>January 2019</b>  
-&emsp;&emsp; Start of Philippines Grant
-
-<br>
-
-<b>March 2019</b>  
-&emsp;&emsp; RITM Rabies Conference   
-&emsp;&emsp; Sequencing and Phylogenetics training workshop, led by <em>Dr. Kirstyn Brunker</em>
-  
-<br>
-
-<b>April 2019</b>  
-&emsp;&emsp; Planned start of feasibility study   
-  
