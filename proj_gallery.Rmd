@@ -2,10 +2,21 @@
 title: ""
 ---
 
+<!-- ---------------------------------------------------------------------- --!>
+<!--Add javascript section for tabbed sections!-->
+<script src="tabs.js"></script>
+<body onload="document.getElementById('defaultOpen').click();">
+
+<!-- ---------------------------------------------------------------------- --!>
+<!--Add javascript section for lightbox!-->
+<script src="lightbox.js"></script>
+
+<!-- ---------------------------------------------------------------------- --!>
 <!--Add a loading bar!-->
 <script src="pace.js"></script>
 <link href="pace_loadbar_loading.css" rel="stylesheet" />
 
+<!-- ---------------------------------------------------------------------- --!>
 <!--Create a block for title and breadcrumbs to appear on same line-->
 <div style="width: 100%; display: inline-block;">
 <div style="float: left;">
@@ -21,182 +32,238 @@ title: ""
 </div>
 <hr class="hr-orange">
 
-<br>
-
+<!-- ---------------------------------------------------------------------- --!>
 <!--Begin page content!-->
 
-<!--Add gallery for Glasgow meetings!-->
-<h3>Project Inaugural Meetings, Glasgow </h3>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/glasgow_1.png">
-    <img src="img/gallery/glasgow_1.png" alt="SPEEDIER group, Graham Kerr Building" width="600" height="400">
-    </a>
-    <div class="desc"><em>SPEEDIER group</em><br> Graham Kerr Building</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/glasgow_2.png">
-    <img src="img/gallery/glasgow_2.png" alt="Katie Hampson, Introduction to week" width="600" height="400">
-    </a>
-    <div class="desc"><em>Katie Hampson</em><br> Introduction to week</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/glasgow_3.png">
-    <img src="img/gallery/glasgow_3.png" alt="Betsy Miranda, Regional Backdrop" width="600" height="400">
-    </a>
-    <div class="desc"><em>Betsy Miranda</em><br> Regional Backdrop</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/glasgow_4.png">
-    <img src="img/gallery/glasgow_4.png" alt="Jobin Maestro, Local Backdrop" width="600" height="400">
-    </a>
-    <div class="desc"><em>Jobin Maestro</em><br> Local Backdrop</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/glasgow_5.png">
-    <img src="img/gallery/glasgow_5.png" alt="Roman Biek, Genomic Surveillance" width="600" height="400">
-    </a>
-    <div class="desc"><em>Roman Biek</em><br> Genomic Surveillance</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/glasgow_6.png">
-    <img src="img/gallery/glasgow_6.png" alt="James Esguerra, Theory of Change" width="600" height="400">
-    </a>
-    <div class="desc"><em>James Esguerra</em><br> Theory of Change</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/glasgow_7.png">
-    <img src="img/gallery/glasgow_7.png" alt="Caroline Trotter, Health Economics" width="600" height="400">
-    </a>
-    <div class="desc"><em>Caroline Trotter</em><br> Health Economics</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/glasgow_8.png">
-    <img src="img/gallery/glasgow_8.png" alt="Nai Rui Chng, Process Evaluation" width="600" height="400">
-    </a>
-    <div class="desc"><em>Nai Rui Chng</em><br> Process Evaluation</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/glasgow_9.png">
-    <img src="img/gallery/glasgow_9.png" alt="Kirstyn Brunker, Genomic & Genetic sequencing" width="600" height="400">
-    </a>
-    <div class="desc"><em>Kirstyn Brunker</em><br> Genomic & Genetic sequencing</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/glasgow_10.png">
-    <img src="img/gallery/glasgow_10.png" alt="Rob Gifford, NextStrain" width="600" height="400">
-    </a>
-    <div class="desc"><em>Rob Gifford</em><br> NextStrain</div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/glasgow_11.png">
-    <img src="img/gallery/glasgow_11.png" alt="Visit to Balmaha & Conic Hill" width="600" height="400">
-    </a>
-    <div class="desc">Visit to Balmaha & Conic Hill</div>
-  </div>
-</div>
-<div class="clearfix"></div>
-
-<br>
-<hr class="hr-grey">
-
-<!--Add gallery for Governor meeting!-->
-<h3>Governor Meeting, Philippines </h3>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/governor_1.png">
-    <img src="img/gallery/governor_1.png" alt="" width="600" height="400">
-    </a>
-    <div class="desc"></div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/governor_2.png">
-    <img src="img/gallery/governor_2.png" alt="" width="600" height="400">
-    </a>
-    <div class="desc"></div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/governor_3.png">
-    <img src="img/gallery/governor_3.png" alt="" width="600" height="400">
-    </a>
-    <div class="desc"></div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery-empty">
-  </div>
-</div>
-<div class="clearfix"></div>
-
-<br>
-<hr class="hr-grey">
-
-<!--Add gallery for FETPAFI meeting!-->
-<h3>FETPAFI Meeting, Philippines </h3>
-
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/fetpafi_1.png">
-    <img src="img/gallery/fetpafi_1.png" alt="" width="600" height="400">
-    </a>
-    <div class="desc"></div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/fetpafi_2.png">
-    <img src="img/gallery/fetpafi_2.png" alt="" width="600" height="400">
-    </a>
-    <div class="desc"></div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/fetpafi_3.png">
-    <img src="img/gallery/fetpafi_3.png" alt="" width="600" height="400">
-    </a>
-    <div class="desc"></div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/fetpafi_4.png">
-    <img src="img/gallery/fetpafi_4.png" alt="" width="600" height="400">
-    </a>
-    <div class="desc"></div>
-  </div>
-</div>
-<div class="responsive">
-  <div class="gallery">
-  <a target="_blank" href="img/gallery/fetpafi_5.png">
-    <img src="img/gallery/fetpafi_5.png" alt="" width="600" height="400">
-    </a>
-    <div class="desc"></div>
-  </div>
+<!--Setup tabs!-->
+<div class="tab">
+  <button class="tablink" onclick="openPage('1', this, '#DE4815')" id="defaultOpen">Project Inaugural Meetings, Glasgow</button>
+  <button class="tablink" onclick="openPage('2', this, '#DE4815')">Governor Meeting, Philippines</button>
+  <button class="tablink" onclick="openPage('3', this, '#DE4815')">FETPAFI Meeting, Philippines</button>
 </div>
 
-<div class="clearfix"></div>
+<!-- ---------------------------------------------------------------------- --!>
+<!-- Tab 1 content -->
+<div id="1" class="tabcontent">
+<h3>Project Inaugural Meetings, Glasgow</h3>
+<em>Please click on a photo to view</em>
+
+<!-- Images used to open the lightbox -->
+<div class="row">
+<div class="column">
+<img src="img/gallery/glasgow_1.png" onclick="openModal1();currentSlide1(1)" class="demo1 hover-shadow" alt="SPEEDIER group, Graham Kerr Building">
+</div>
+<div class="column">
+<img src="img/gallery/glasgow_2.png" onclick="openModal1();currentSlide1(2)" class="demo1 hover-shadow" alt="Katie Hampson, Introduction to week">
+</div>
+<div class="column">
+<img src="img/gallery/glasgow_3.png" onclick="openModal1();currentSlide1(3)" class="demo1 hover-shadow" alt="Betsy Miranda, Presentation on the Regional status of Rabies in the Philippines">
+</div>
+<div class="column">
+<img src="img/gallery/glasgow_4.png" onclick="openModal1();currentSlide1(4)" class="demo1 hover-shadow" alt="Jobin Maestro, Status of Rabies in Romblon Province, Philippines">
+</div>
+<div class="column">
+<img src="img/gallery/glasgow_5.png" onclick="openModal1();currentSlide1(5)" class="demo1 hover-shadow" alt="Roman Biek, Introduction to Genomic Surveillance of canine Rabies">
+</div>
+<div class="column">
+<img src="img/gallery/glasgow_6.png" onclick="openModal1();currentSlide1(6)" class="demo1 hover-shadow" alt="James Esguerra, Theory of Change Group activity">
+</div>
+<div class="column">
+<img src="img/gallery/glasgow_7.png" onclick="openModal1();currentSlide1(7)" class="demo1 hover-shadow" alt="Caroline Trotter, Health Economics of Rabies">
+</div>
+<div class="column">
+<img src="img/gallery/glasgow_8.png" onclick="openModal1();currentSlide1(8)" class="demo1 hover-shadow" alt="Nai Rui Chng, Process Evaluation">
+</div>
+<div class="column">
+<img src="img/gallery/glasgow_9.png" onclick="openModal1();currentSlide1(9)" class="demo1 hover-shadow" alt="Kirstyn Brunker, Genomic & Genetic sequencing of the Rabies virus">
+</div>
+<div class="column">
+<img src="img/gallery/glasgow_10.png" onclick="openModal1();currentSlide1(10)" class="demo1 hover-shadow" alt="Rob Gifford, NextStrain visualisation and analysis platform">
+</div>
+<div class="column">
+<img src="img/gallery/glasgow_11.png" onclick="openModal1();currentSlide1(11)" class="demo1 hover-shadow" alt="Visit to Balmaha & Conic Hill, Trossachs">
+</div>
+
+</div> <!-- End Gallery -->
+
+<!-- The Modal/Lightbox -->
+<div id="myModal1" class="modal">
+<div class="modal-content">
+<span class="close_modal cursor" onclick="closeModal1()">&times;</span>
+
+<!-- Images in Lightbox -->
+<div class="mySlides1">
+<div class="numbertext">1 / 11</div>
+<img src="img/gallery/glasgow_1.png" class="modal-img-resp">
+</div>
+<div class="mySlides1">
+<div class="numbertext">2 / 11</div>
+<img src="img/gallery/glasgow_2.png" class="modal-img-resp">
+</div>
+<div class="mySlides1">
+<div class="numbertext">3 / 11</div>
+<img src="img/gallery/glasgow_3.png" class="modal-img-resp">
+</div>
+<div class="mySlides1">
+<div class="numbertext">4 / 11</div>
+<img src="img/gallery/glasgow_4.png" class="modal-img-resp">
+</div>
+<div class="mySlides1">
+<div class="numbertext">5 / 11</div>
+<img src="img/gallery/glasgow_5.png" class="modal-img-resp">
+</div>
+<div class="mySlides1">
+<div class="numbertext">6 / 11</div>
+<img src="img/gallery/glasgow_6.png" class="modal-img-resp">
+</div>
+<div class="mySlides1">
+<div class="numbertext">7 / 11</div>
+<img src="img/gallery/glasgow_7.png" class="modal-img-resp">
+</div>
+<div class="mySlides1">
+<div class="numbertext">8 / 11</div>
+<img src="img/gallery/glasgow_8.png" class="modal-img-resp">
+</div>
+<div class="mySlides1">
+<div class="numbertext">9 / 11</div>
+<img src="img/gallery/glasgow_9.png" class="modal-img-resp">
+</div>
+<div class="mySlides1">
+<div class="numbertext">10 / 11</div>
+<img src="img/gallery/glasgow_10.png" class="modal-img-resp">
+</div>
+<div class="mySlides1">
+<div class="numbertext">11 / 11</div>
+<img src="img/gallery/glasgow_11.png" class="modal-img-resp">
+</div>
+
+<!-- Next/previous controls -->
+<a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides1(1)">&#10095;</a>
+
+<!-- Caption text -->
+<div class="caption-container">
+<p id="caption1"></p>
+</div> <!-- End Caption -->
+
+</div> <!-- End Modal content -->
+</div> <!-- End Lightbox -->
+</div> <!-- End Tab 1 -->
+
+<!-- ---------------------------------------------------------------------- --!>
+<!-- Tab 2 content -->
+<div id="2" class="tabcontent">
+<h3>Governor Meeting, Philippines</h3>
+<em>Please click on a photo to view</em>
+
+<!-- Images used to open the lightbox -->
+<div class="row">
+<div class="column">
+<img src="img/gallery/governor_1.png" onclick="openModal2();currentSlide2(1)" class="demo2 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/governor_2.png" onclick="openModal2();currentSlide2(2)" class="demo2 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/governor_3.png" onclick="openModal2();currentSlide2(3)" class="demo2 hover-shadow" alt="">
+</div>
+
+</div> <!-- End Gallery -->
+
+<!-- The Modal/Lightbox -->
+<div id="myModal2" class="modal">
+<div class="modal-content">
+<span class="close_modal cursor" onclick="closeModal2()">&times;</span>
+
+<!-- Images in Lightbox -->
+<div class="mySlides2">
+<div class="numbertext">1 / 3</div>
+<img src="img/gallery/governor_1.png" class="modal-img-resp">
+</div>
+<div class="mySlides2">
+<div class="numbertext">2 / 3</div>
+<img src="img/gallery/governor_2.png" class="modal-img-resp">
+</div>
+<div class="mySlides2">
+<div class="numbertext">3 / 3</div>
+<img src="img/gallery/governor_3.png" class="modal-img-resp">
+</div>
+
+<!-- Next/previous controls -->
+<a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+<!-- Caption text -->
+<div class="caption-container">
+<p id="caption2"></p>
+</div> <!-- End Caption -->
+
+</div> <!-- End Modal content -->
+</div> <!-- End Lightbox -->
+</div> <!-- End Tab 2 -->
+
+<!-- ---------------------------------------------------------------------- --!>
+<!-- Tab 3 content -->
+<div id="3" class="tabcontent">
+<h3>FETPAFI Meeting, Philippines</h3>
+<em>Please click on a photo to view</em>
+
+<!-- Images used to open the lightbox -->
+<div class="row">
+<div class="column">
+<img src="img/gallery/fetpafi_1.png" onclick="openModal3();currentSlide3(1)" class="demo3 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/fetpafi_2.png" onclick="openModal3();currentSlide3(2)" class="demo3 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/fetpafi_3.png" onclick="openModal3();currentSlide3(3)" class="demo3 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/fetpafi_4.png" onclick="openModal3();currentSlide3(3)" class="demo3 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/fetpafi_5.png" onclick="openModal3();currentSlide3(3)" class="demo3 hover-shadow" alt="">
+</div>
+
+</div> <!-- End Gallery -->
+
+<!-- The Modal/Lightbox -->
+<div id="myModal3" class="modal">
+<div class="modal-content">
+<span class="close_modal cursor" onclick="closeModal3()">&times;</span>
+
+<!-- Images in Lightbox -->
+<div class="mySlides3">
+<div class="numbertext">1 / 5</div>
+<img src="img/gallery/fetpafi_1.png" class="modal-img-resp">
+</div>
+<div class="mySlides3">
+<div class="numbertext">2 / 5</div>
+<img src="img/gallery/fetpafi_2.png" class="modal-img-resp">
+</div>
+<div class="mySlides3">
+<div class="numbertext">3 / 5</div>
+<img src="img/gallery/fetpafi_3.png" class="modal-img-resp">
+</div>
+<div class="mySlides3">
+<div class="numbertext">4 / 5</div>
+<img src="img/gallery/fetpafi_4.png" class="modal-img-resp">
+</div>
+<div class="mySlides3">
+<div class="numbertext">5 / 5</div>
+<img src="img/gallery/fetpafi_5.png" class="modal-img-resp">
+</div>
+
+<!-- Next/previous controls -->
+<a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides3(1)">&#10095;</a>
+
+<!-- Caption text -->
+<div class="caption-container">
+<p id="caption3"></p>
+</div> <!-- End Caption -->
+
+</div> <!-- End Modal content -->
+</div> <!-- End Lightbox -->
+</div> <!-- End Tab 3 -->
