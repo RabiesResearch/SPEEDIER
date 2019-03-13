@@ -35,7 +35,7 @@ body {
   color: white;
 }
 .a_footer:hover {
-  color: 	#92330D;
+  color: 	#571e07;
   font-weight: bold;
 }
 .a_footer:active {
@@ -438,10 +438,6 @@ div.desc {
 .demo1 .demo2 .demo3 {
   opacity: 1;
   cursor: pointer; /* Mouse pointer on hover */
-}
-
-.active {
-  opacity: 0.8;
 }
 
 .hover-shadow {
