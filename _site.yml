@@ -5,7 +5,7 @@ navbar:
   # Title appears in the top left of the navbar
   title: "SPEEDIER"
   # Arrange items on the left side of the navbar (to the right of the title)
-  left:
+  right:
     - text: "Home"
       href: index.html # The page that will appear when the name on the navbar is clicked
     - text: "Background" # Name that appears on the navbar
@@ -30,10 +30,6 @@ navbar:
           href: proj_outputs.html
     - text: "The Team"
       href: proj_team.html
-  # Arrange items on the right side of the navbar (social links)
-  right:
-    - icon: fa-envelope fa-lg
-      href: mailto:Katie.Hampson@glasgow.ac.uk
     - text: "Related Projects"
       icon: fa-globe fa-lg
       menu:
