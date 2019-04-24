@@ -28,3 +28,5 @@ title: ""
 
 SPEEDIER Project Poster: `r PHL_embed_file(filename="Poster_Oct18_v4", filetype="pdf", label="Oct 2018")`
 
+SPEEDIER Update Flash Report: `r PHL_embed_file(filename="Flash_Report_May19_v2", filetype="pdf", label="May 2019")`
+
