@@ -28,12 +28,12 @@ title: ""
 
 #### Day 1
   
-Katie Hampson: `r PHL_embed_file(filename="Day1_Hampson_Introduction", filetype="pdf", label="Introduction to SPEEDIER")`  
-Betsy Miranda: `r PHL_embed_file(filename="Day1_Miranda_RabiesinSEAsia", filetype="pdf", label="Regional (SEA) & National Backdrop")`  
-Jobin Maestro: `r PHL_embed_file(filename="Day1_Maestro_RabiesinRomblon", filetype="pdf", label="Local Backdrop (Romblon)")`  
-Roman Biek: `r PHL_embed_file(filename="Day1_Biek_GenomicSurveillance", filetype="pdf", label="Genomic Surveillance")`  
-Nai Rui Chng: `r PHL_embed_file(filename="Day1_Chng_TOC", filetype="pdf", label="Theory of Change (TOC)")`  
-James Esguerra: `r PHL_embed_file(filename="Day1_StakeholderAnalysis", filetype="pdf", label="Stakeholder Analysis")`  
+Katie Hampson: `r PHL_embed_file(filename="docs/Day1_Hampson_Introduction", filetype="pdf", label="Introduction to SPEEDIER")`  
+Betsy Miranda: `r PHL_embed_file(filename="docs/Day1_Miranda_RabiesinSEAsia", filetype="pdf", label="Regional (SEA) & National Backdrop")`  
+Jobin Maestro: `r PHL_embed_file(filename="docs/Day1_Maestro_RabiesinRomblon", filetype="pdf", label="Local Backdrop (Romblon)")`  
+Roman Biek: `r PHL_embed_file(filename="docs/Day1_Biek_GenomicSurveillance", filetype="pdf", label="Genomic Surveillance")`  
+Nai Rui Chng: `r PHL_embed_file(filename="docs/Day1_Chng_TOC", filetype="pdf", label="Theory of Change (TOC)")`  
+James Esguerra: `r PHL_embed_file(filename="docs/Day1_StakeholderAnalysis", filetype="pdf", label="Stakeholder Analysis")`  
 
 </div>
 
@@ -42,14 +42,14 @@ James Esguerra: `r PHL_embed_file(filename="Day1_StakeholderAnalysis", filetype=
 
 #### Day 2
   
-Katie Hampson: `r PHL_embed_file(filename="Day2_Hampson_Planning", filetype="pdf", label="Planning")`  
-Betty Quiambao: `r PHL_embed_file(filename="Day2_Quiambao_PEP", filetype="pdf", label="PEP")`  
-Katie Hampson: `r PHL_embed_file(filename="Day2_Hampson_IBCM", filetype="pdf", label="IBCM")`  
-Isty Rysava: `r PHL_embed_file(filename="Day2_Rysava_BITERS", filetype="pdf", label="BITERS App")`  
-Peter Craig: `r PHL_embed_file(filename="Day2_Craig_SteppedWedgeTrial", filetype="pdf", label="Stepped Wedge Trial")`  
-Paul Johnson: `r PHL_embed_file(filename="Day2_Johnson_Power", filetype="pdf", label="Power")`  
-Caroline Trotter: `r PHL_embed_file(filename="Day2_Trotter_Economics", filetype="pdf", label="Health Economics")`  
-Nai Rui Chng: `r PHL_embed_file(filename="Day2_Chng_ProcessEvaluation", filetype="pdf", label="Process Evaluation")`  
+Katie Hampson: `r PHL_embed_file(filename="docs/Day2_Hampson_Planning", filetype="pdf", label="Planning")`  
+Betty Quiambao: `r PHL_embed_file(filename="docs/Day2_Quiambao_PEP", filetype="pdf", label="PEP")`  
+Katie Hampson: `r PHL_embed_file(filename="docs/Day2_Hampson_IBCM", filetype="pdf", label="IBCM")`  
+Isty Rysava: `r PHL_embed_file(filename="docs/Day2_Rysava_BITERS", filetype="pdf", label="BITERS App")`  
+Peter Craig: `r PHL_embed_file(filename="docs/Day2_Craig_SteppedWedgeTrial", filetype="pdf", label="Stepped Wedge Trial")`  
+Paul Johnson: `r PHL_embed_file(filename="docs/Day2_Johnson_Power", filetype="pdf", label="Power")`  
+Caroline Trotter: `r PHL_embed_file(filename="docs/Day2_Trotter_Economics", filetype="pdf", label="Health Economics")`  
+Nai Rui Chng: `r PHL_embed_file(filename="docs/Day2_Chng_ProcessEvaluation", filetype="pdf", label="Process Evaluation")`  
   
 </div>
 
@@ -58,10 +58,10 @@ Nai Rui Chng: `r PHL_embed_file(filename="Day2_Chng_ProcessEvaluation", filetype
 
 #### Day 4
   
-Katie Hampson: `r PHL_embed_file(filename="Day4_Hampson_GeneticsIntro", filetype="pdf", label="Introduction to Genetics")`  
-Roman Biek: `r PHL_embed_file(filename="Day4_Biek_GenomicSurveillance", filetype="pdf", label="Genomic Surveillance")`  
-Kirstyn Brunker: `r PHL_embed_file(filename="Day4_Brunker_GenomeSeq", filetype="pdf", label="Genomic/Genetic Sequencing")`  
-Josh Singer: `r PHL_embed_file(filename="Day4_Singer_RABVGLUE", filetype="pdf", label="RABV-GLUE")`  
+Katie Hampson: `r PHL_embed_file(filename="docs/Day4_Hampson_GeneticsIntro", filetype="pdf", label="Introduction to Genetics")`  
+Roman Biek: `r PHL_embed_file(filename="docs/Day4_Biek_GenomicSurveillance", filetype="pdf", label="Genomic Surveillance")`  
+Kirstyn Brunker: `r PHL_embed_file(filename="docs/Day4_Brunker_GenomeSeq", filetype="pdf", label="Genomic/Genetic Sequencing")`  
+Josh Singer: `r PHL_embed_file(filename="docs/Day4_Singer_RABVGLUE", filetype="pdf", label="RABV-GLUE")`  
 Rob Gifford: <a href="https://nextstrain.org/" target="blank">NextStrain</a>
 
 </div>
@@ -74,6 +74,6 @@ Rob Gifford: <a href="https://nextstrain.org/" target="blank">NextStrain</a>
 
 <br>
 
-Card Activity: `r PHL_embed_file(filename="Day1_CardActivity", filetype="pdf", label="19th Nov 2018")`  
+Card Activity: `r PHL_embed_file(filename="docs/Day1_CardActivity", filetype="pdf", label="19th Nov 2018")`  
 
 </div>
