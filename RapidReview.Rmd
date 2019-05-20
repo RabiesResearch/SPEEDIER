@@ -19,3 +19,42 @@ title: ""
 <br>
 
 <!--Begin page content!-->
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# Reformat spacing
+rr_summary <- data.frame(lapply(rr_summary, function(x) {
+  gsub("&#10;", "<br>", x)}), stringsAsFactors = FALSE)
+
+# Add links to documents
+rr_summary$Title2 <- NA
+for(i in 1:nrow(rr_summary)){
+  if(!is.na(rr_summary$Doc_name[i])){
+    rr_summary$Title2[i] <- paste0("<a href='output/rapid_review/", rr_summary$Doc_name[i], "', target='blank'>", 
+                     rr_summary$Title[i], "</a>")
+  } else {
+    rr_summary$Title2[i] <- rr_summary$Title[i]
+  }
+}
+
+# Select certain columns
+rr_summary <- select(rr_summary, Title2, Strengths, Limitations, Responses.Feedback)
+
+# Create table
+rr_tb <- rr_summary %>%
+  kable(format = "html", escape = FALSE, 
+        col.names=c("Title", "Strengths", "Limitations", "Responses/Feedback (FETPAFI/SPEEDIER Technical Staff)")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condesned", "responsive"),
+                fixed_thead=list(enabled=TRUE, background="#FF9F55")) %>%
+  column_spec(1, bold = T, border_right = T, width="13%") %>%
+  column_spec(2, width = "29%") %>% 
+  column_spec(3, width = "29%") %>% 
+  column_spec(4, width = "29%")
+```
+
+The table below provides a review of documents and literature, with strengths and limitations highlighted alongside the relevant responses and feedback for SPEEDIER/FETPAFI staff. A full version of the table can be downloaded `r PHL_embed_file(filename="rapid_review/RapidReview", filetype="xlsx", label="here")`.  
+<br>
+
+<div class="wide_container">
+`r rr_tb`
+<br><br>
+<div>
