@@ -342,8 +342,18 @@ $(document).ready(function () {
     </li>
   </ul>
 </li>
-<li>
-  <a href="proj_team.html">The Team</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    The Team
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="proj_team.html">Main Team</a>
+    </li>
+    <li class="dropdown-header">Project Advisory Group</li>
+  </ul>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -385,7 +395,7 @@ $(document).ready(function () {
 <!--Create a block for title and breadcrumbs to appear on same line-->
 <div style="width: 100%; display: inline-block;">
 <div style="float: left; ">
-<h1 id="project-team">Project Team</h1>
+<h1 id="main-team">Main Team</h1>
 </div>
 <div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
@@ -393,7 +403,7 @@ $(document).ready(function () {
 <a href="index.html">Home</a>
 </li>
 <li class="breadcrumb-item active">
-Project Team
+Main Team
 </li>
 </ol>
 </div>

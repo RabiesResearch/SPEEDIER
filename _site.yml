@@ -29,7 +29,10 @@ navbar:
           icon: fa-file-text
           href: proj_outputs.html
     - text: "The Team"
-      href: proj_team.html
+      menu:
+        - text: "Main Team"
+          href: proj_team.html
+        - text: "Project Advisory Group"
     - text: "Related Projects"
       icon: fa-globe fa-lg
       menu:

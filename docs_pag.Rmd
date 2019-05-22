@@ -9,12 +9,12 @@ title: ""
 <!--Create a block for title and breadcrumbs to appear on same line-->
 <div style="width: 100%; display: inline-block;">
 <div style="float: left; ">
-# Main Team
+# Project Advisory Group Documents
 </div>
 <div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-  <li class="breadcrumb-item active">Main Team</li>
+  <li class="breadcrumb-item active">Project Advisory Group Documents</li>
 </ol>
 </div>
 </div>
@@ -24,4 +24,4 @@ title: ""
 
 <!--Begin page content!-->
 
-<em><p class="text-primary">Team details coming soon. </p></em>
+<em><p class="text-primary">Documents coming soon. </p></em>
