@@ -29,7 +29,7 @@ rr_summary <- data.frame(lapply(rr_summary, function(x) {
 rr_summary$Title2 <- NA
 for(i in 1:nrow(rr_summary)){
   if(!is.na(rr_summary$Doc_name[i])){
-    rr_summary$Title2[i] <- paste0("<a href='output/rapid_review/", rr_summary$Doc_name[i], "', target='blank'>", 
+    rr_summary$Title2[i] <- paste0("<a href='", rr_summary$Doc_name[i], "', target='blank'>", 
                      rr_summary$Title[i], "</a>")
   } else {
     rr_summary$Title2[i] <- rr_summary$Title[i]
@@ -51,7 +51,8 @@ rr_tb <- rr_summary %>%
   column_spec(4, width = "29%")
 ```
 
-The table below provides a review of documents and literature, with strengths and limitations highlighted alongside the relevant responses and feedback for SPEEDIER/FETPAFI staff. A full version of the table can be downloaded `r PHL_embed_file(filename="rapid_review/RapidReview", filetype="xlsx", label="here")`.  
+<h4>The table below provides a review of documents and literature, with strengths and limitations highlighted alongside the relevant responses and feedback for SPEEDIER/FETPAFI staff. Links to individual documents are available for orange titled entries.  
+A full version of the table can be downloaded `r PHL_embed_file(filename="rapid_review/RapidReview", filetype="xlsx", label="here")`.</h4>
 <br>
 
 <div class="wide_container">
