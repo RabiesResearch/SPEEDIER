@@ -24,4 +24,21 @@ title: ""
 
 <!--Begin page content!-->
 
+PI: Betsy Miranda - FETPAFI veterinary epidemiologist, rabies specialist and implementation scientist extraordinaire!
+co-I: Betty Quiambao - chief medical officer in charge of clinical care, pediatrician, PEP provision and ABTC training at RITM
+co-I: Daria Manalo - chief science research specialist with a focus on rabies surveillance and laboratory diagnosis
+co-I: Jobin Maestro - MD and Alcantara Municipal Health Officer, Romblon
+Rose Arroyo - FETPAFI epidemiologist and research scientist
+Ferlie Famaloan - Social scientist & FETPAFI process evaluation lead
+Franz Egipto - FETPAFI disease surveillance officer
+Katie Hampson - rabies reseach scientist, University of Glasgow
+Nai Rui Chng - process evaluation, UG
+Peter Craig - complex interventions specialist at UG MRC unit
+Sally Wyke - Social science supervision and mentoring 
+Caroline Trotter - Health economist & epidemiologist
+Paul Johnson - Statistical wizard
+
+Additional team members always providing support include Eric, Mylene and Brandy at FETPAFI
+The lab at RITM
+
 <em><p class="text-primary">Team details coming soon. </p></em>
