@@ -52,7 +52,7 @@ rr_tb <- rr_summary %>%
 ```
 
 <h4>The table below provides a review of documents and literature, with strengths and limitations highlighted alongside the relevant responses and feedback for SPEEDIER/FETPAFI staff. Links to individual documents are available for orange titled entries.  
-A full version of the table can be downloaded `r PHL_embed_file(filename="rapid_review/RapidReview", filetype="csv", label="here")`.</h4>
+A full version of the table can be downloaded `r PHL_embed_file(filename="rapid_review/RapidReview", filetype="xlsx", label="here")`.</h4>
 <br>
 
 <div class="wide_container">
