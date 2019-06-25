@@ -24,11 +24,9 @@ title: ""
 
 <!--Begin page content!-->
 
-<center>
-Thank you for agreeing to be on SPEEDIER's project advisory group (PAG). We have put documents of potential interest to the PAG on this page to avoid sending you large emails. We will also post an agenda and list of questions for the PAG meetings to help make meetings more efficient!
+Thank you for agreeing to be on SPEEDIER's project advisory group (PAG). Documents of potential interest to the PAG are on this page to avoid sending large emails. We will post a PAG meeting agenda and list of questions to help make meetings more efficient.
 <br>
 Please let me know (katie.hampson@glasgow.ac.uk) if you would prefer another format, or would like additional information.
-</center>
 
 <hr class="hr-grey>
 
@@ -36,7 +34,6 @@ Please let me know (katie.hampson@glasgow.ac.uk) if you would prefer another for
 
 Update on progress: `r PHL_embed_file(filename="pag_docs/2019 MAY SPEEDIER Flash Report_final", filetype="pdf", label="Flash report May 2019")`  
 Approved Ethics protocol (phase 1 & 2a): `r PHL_embed_file(filename="pag_docs/Appendix 1_Protocol_v4_all", filetype="pdf", label="RITM IRB application")`  
-IBCM materials: `r PHL_embed_file(filename="pag_docs/SPEEDIER IBCM Field Operations Manual", filetype="pdf", label="Field Operations Manual")`  
-Update on progress: `r PHL_embed_file(filename="pag_docs/SPEEDIER Training Programme for trainees", filetype="pdf", label="Training Programme")`  
+IBCM materials: `r PHL_embed_file(filename="pag_docs/SPEEDIER IBCM Field Operations Manual", filetype="pdf", label="Field Operations Manual")` & `r PHL_embed_file(filename="pag_docs/SPEEDIER Training Programme for trainees", filetype="pdf", label="Training Programme")`  
 
 </div>
