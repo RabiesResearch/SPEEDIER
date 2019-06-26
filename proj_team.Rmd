@@ -24,21 +24,146 @@ title: ""
 
 <!--Begin page content!-->
 
-PI: Betsy Miranda - FETPAFI veterinary epidemiologist, rabies specialist and implementation scientist extraordinaire!
-co-I: Betty Quiambao - chief medical officer in charge of clinical care, pediatrician, PEP provision and ABTC training at RITM
-co-I: Daria Manalo - chief science research specialist with a focus on rabies surveillance and laboratory diagnosis
-co-I: Jobin Maestro - MD and Alcantara Municipal Health Officer, Romblon
-Rose Arroyo - FETPAFI epidemiologist and research scientist
-Ferlie Famaloan - Social scientist & FETPAFI process evaluation lead
-Franz Egipto - FETPAFI disease surveillance officer
-Katie Hampson - rabies reseach scientist, University of Glasgow
-Nai Rui Chng - process evaluation, UG
-Peter Craig - complex interventions specialist at UG MRC unit
-Sally Wyke - Social science supervision and mentoring 
-Caroline Trotter - Health economist & epidemiologist
-Paul Johnson - Statistical wizard
+<center>
+
+<!--Betsy!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>PI</b><br><br>
+<b>Betsy Miranda</b><br><br>
+<em>FETPAFI veterinary epidemiologist</em><br>
+<em>Rabies specialist</em><br>
+<em>Implementation scientist extraordinaire!</em><br>
+</div>
+</div>
+</div>
+
+<br>
+
+<!--Betty!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>co-I</b><br><br>
+<b>Betty Quiambao</b><br><br>
+<em>Chief medical officer in charge of clinical care</em><br>
+<em>Pediatrician</em><br>
+<em>PEP provision and ABTC training at RITM</em><br>
+</div>
+</div>
+</div>
+<!--Daria!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>co-I</b><br><br>
+<b>Daria Manalo</b><br><br>
+<em>Chief science research specialist, with a focus on rabies surveillance and laboratory diagnosis</em><br>
+</div>
+</div>
+</div>
+<!--Jobin!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>co-I</b><br><br>
+<b>Jobin Maestro</b><br><br>
+<em>MD</em><br>
+<em>Alcantara Municipal Health Officer, Romblon</em><br>
+</div>
+</div>
+</div>
+
+<br>
+
+</center>
+
+<!--Rose!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Rose Arroyo</b><br><br>
+<em>FETPAFI Epidemiologist and Research Scientist</em><br>
+</div>
+</div>
+</div>
+<!--Nai!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Nai Rui Chng</b><br><br>
+<em>Process Evaluation, University of Glasgow</em><br>
+</div>
+</div>
+</div>
+<!--Peter!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Peter Craig</b><br><br>
+<em>Complex Interventions Specialist, University of Glasgow MRC unit</em><br>
+</div>
+</div>
+</div>
+<!--Franz!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Franz Egipto</b><br><br>
+<em>FETPAFI Disease Surveillance Officer</em><br>
+</div>
+</div>
+</div>
+<!--Ferlie!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Ferlie Famaloan</b><br><br>
+<em>Social Scientist & FETPAFI Process Evaluation Lead</em><br>
+</div>
+</div>
+</div>
+<!--Katie!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Katie Hampson</b><br><br>
+<em>Rabies Reseach Scientist, University of Glasgow</em><br>
+</div>
+</div>
+</div>
+<!--Paul!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Paul Johnson</b><br><br>
+<em>Statistical wizard, University of Glasgow</em><br>
+</div>
+</div>
+</div>
+<!--Caroline!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Caroline Trotter</b><br><br>
+<em>Health Economist & Epidemiologist, University of Cambridge</em><br>
+</div>
+</div>
+</div>
+<!--Sally!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Sally Wyke</b><br><br>
+<em>Social Science Supervision and Mentoring</em><br>
+</div>
+</div>
+</div>
+
+<br>
 
 Additional team members always providing support include Eric, Mylene and Brandy at FETPAFI
 The lab at RITM
 
-<em><p class="text-primary">Team details coming soon. </p></em>
+<br><br>
