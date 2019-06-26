@@ -32,6 +32,7 @@ Please let me know (katie.hampson@glasgow.ac.uk) if you would prefer another for
 
 <div style="display: inline-block; ">
 
+Project background: `r PHL_embed_file(filename="pag_docs/SPEEDIER Blurb", filetype="pdf", label="project summary")`  
 Update on progress: `r PHL_embed_file(filename="pag_docs/2019 MAY SPEEDIER Flash Report_final", filetype="pdf", label="Flash report May 2019")`  
 Approved Ethics protocol (phase 1 & 2a): `r PHL_embed_file(filename="pag_docs/Appendix 1_Protocol_v4_all", filetype="pdf", label="RITM IRB application")`  
 IBCM materials: `r PHL_embed_file(filename="pag_docs/SPEEDIER IBCM Field Operations Manual", filetype="pdf", label="Field Operations Manual")` & `r PHL_embed_file(filename="pag_docs/SPEEDIER Training Programme for trainees", filetype="pdf", label="Training Programme")`  
