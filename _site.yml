@@ -31,9 +31,7 @@ navbar:
     - text: "The Team"
       menu:
         - text: "Main Team"
-          href: proj_team.html
         - text: "Project Advisory Group"
-          href: proj_pag.html
     - text: "Related Projects"
       icon: fa-globe fa-lg
       menu:
