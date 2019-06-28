@@ -140,7 +140,7 @@ function showSlides3(n) {
 }
 
 // ----------------------------------------------------------------------------
-// LIGHTBBOX 4 - TRAINING & CONFERENCES (3 PHOTOS)
+// LIGHTBBOX 4 - IBCM TRAINING (7 PHOTOS)
 
 // Open the Modal
 function openModal4() {
@@ -168,7 +168,7 @@ function currentSlide4(n) {
 // Select slides
 function showSlides4(n) {
   var First_slide4 = 1;
-  var Last_slide4 = 3;
+  var Last_slide4 = 7;
   var i4;
   var slides4 = document.getElementsByClassName("mySlides4");
   var dots4 = document.getElementsByClassName("demo4");
