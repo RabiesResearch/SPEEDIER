@@ -39,6 +39,9 @@ for(i in 1:nrow(rr_summary)){
 # Select certain columns
 rr_summary <- select(rr_summary, Title2, Strengths, Limitations, Feedback)
 
+# Remove empty rows
+rr_summary <- rr_summary[-which(is.na(rr_summary$Title)),]
+
 # Create table
 rr_tb <- rr_summary %>%
   kable(format = "html", escape = FALSE, 
