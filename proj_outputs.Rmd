@@ -26,11 +26,14 @@ title: ""
 
 <!--Begin page content!-->
 
-SPEEDIER Project Poster: `r PHL_embed_file(filename="proj_outputs/Poster_Oct18_v4", filetype="pdf", label="Oct 2018")`
+SPEEDIER Project Poster: <br>
+<ul>
+<li>`r PHL_embed_file(filename="proj_outputs/Poster_Oct18_v4", filetype="pdf", label="Oct 2018")`</li>
+</ul>
 
 SPEEDIER Update Flash Reports: <br>
 <ul>
 <li>`r PHL_embed_file(filename="proj_outputs/Flash_Report_May19_v3", filetype="pdf", label="May 2019")`</li>
 <li>`r PHL_embed_file(filename="proj_outputs/Flash_Report_JuneJuly19_final", filetype="pdf", label="June/July 2019")`</li>
-ul>
+<ul>
 

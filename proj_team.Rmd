@@ -115,15 +115,6 @@ title: ""
 </div>
 </div>
 </div>
-<!--Ferlie!-->
-<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
-<div class="hvrbox-layer_top">
-<div class="hvrbox-text">
-<b>Ferlie Famaloan</b><br><br>
-<em>Social Scientist & FETPAFI Process Evaluation Lead</em><br>
-</div>
-</div>
-</div>
 <!--Katie!-->
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
 <div class="hvrbox-layer_top">
