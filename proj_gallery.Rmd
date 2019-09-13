@@ -41,7 +41,7 @@ title: ""
 <button class="tablink" onclick="openPage('1', this, '#DE4815')" id="defaultOpen">Project Inaugural Meetings, Glasgow</button>
 <button class="tablink" onclick="openPage('2', this, '#DE4815')">Governor Meeting, Philippines</button>
 <button class="tablink" onclick="openPage('3', this, '#DE4815')">FETPAFI Meeting, Philippines</button>
-<button class="tablink" onclick="openPage('4', this, '#DE4815')">IBCM Training, Philippines</button>
+<button class="tablink" onclick="openPage('4', this, '#DE4815')">IBCM Training, San Jose, Philippines</button>
 </div>
 
 <!-- ---------------------------------------------------------------------- --!>
@@ -273,7 +273,7 @@ title: ""
 <!-- ---------------------------------------------------------------------- --!>
 <!-- Tab 4 content -->
 <div id="4" class="tabcontent">
-<h3>IBCM Training, Philippines</h3>
+<h3>IBCM Training, San Jose, Philippines</h3>
 <em>Please click on a photo to view</em>
 
 <!-- Images used to open the lightbox -->
