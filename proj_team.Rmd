@@ -63,7 +63,7 @@ title: ""
 </div>
 </div>
 <!--Betty Quiambao!-->
-<div class="hvrbox hvrbox_background" style="background-image: url(img/team/BettyQuiambao.jpg);">
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/BettyQuiambao.JPG);">
 <div class="hvrbox-layer_top">
 <div class="hvrbox-text">
 <b>co-I</b><br><br>
@@ -192,7 +192,6 @@ title: ""
 
 <br>
 
-Additional team members always providing support include Mylene and Brandy at FETPAFI
-The lab at RITM
+Additional team members always providing support include Mylene and Brandy at FETPAFI, and the lab at RITM
 
 <br><br>
