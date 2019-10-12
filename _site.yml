@@ -11,7 +11,7 @@ navbar:
     - text: "Background" # Name that appears on the navbar
       href: Phil_overview.html
     - text: "News"
-      href: news.html
+      href: # news.html # Hide while developing
     - text: "The Project"
       href: proj_background.html
       menu:
