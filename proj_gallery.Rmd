@@ -155,7 +155,7 @@ title: ""
 <!-- ---------------------------------------------------------------------- --!>
 <!-- Tab 2 content -->
 <div id="2" class="tabcontent">
-<h3>Governor Meeting, Philippines</h3>
+<h3 id="GM_gallery">Governor Meeting, Philippines</h3>
 <em>Please click on a photo to view</em>
 
 <!-- Images used to open the lightbox -->

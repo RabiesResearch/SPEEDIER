@@ -21,3 +21,11 @@ function openPage(pageName, elmnt, color) {
   // Add the specific color to the button used to open the tab content
   elmnt.style.backgroundColor = color;
 }
+
+// Add a class for linking to a specific tab
+$(document).ready(function(){
+    $(".moveTo").click(function(){
+        var elemId = $(this).attr('href')
+        $(elemId).find('a:first').click();
+    });
+});
