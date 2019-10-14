@@ -46,7 +46,7 @@ title: ""
 <!--Add an image-->
 <div class="img_container">
 <a href="proj_gallery.html#GM_gallery" class="moveTo">
-<img src="img/gallery/region_launch_1.jpg" class="img_link">
+<img src="img/gallery/ibcm_training_1.png" class="img_link">
 <div class="img_overlay">Go to Gallery</div>
 </a>
 </div>
