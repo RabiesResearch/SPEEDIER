@@ -12,7 +12,7 @@
 
 
 
-<title>proj_gallery.utf8</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -373,15 +373,19 @@ $(document).ready(function () {
 </div>
 
 
-&lt;!– ———————————————————————- –!&gt; <!--Add javascript section for tabbed sections!-->
+<!-- ---------------------------------------------------------------------- -->
+<!--Add javascript section for tabbed sections!-->
 <script src="tabs.js"></script>
 <body onload="document.getElementById('defaultOpen').click();">
-&lt;!– ———————————————————————- –!&gt; <!--Add javascript section for lightbox!-->
+<!-- ---------------------------------------------------------------------- -->
+<!--Add javascript section for lightbox!-->
 <script src="lightbox.js"></script>
-&lt;!– ———————————————————————- –!&gt; <!--Add a loading bar!-->
+<!-- ---------------------------------------------------------------------- -->
+<!--Add a loading bar!-->
 <script src="pace.js"></script>
 <p><link href="pace_loadbar_loading.css" rel="stylesheet" /></p>
-&lt;!– ———————————————————————- –!&gt; <!--Create a block for title and breadcrumbs to appear on same line-->
+<!-- ---------------------------------------------------------------------- -->
+<!--Create a block for title and breadcrumbs to appear on same line-->
 <div style="width: 100%; display: inline-block;">
 <div style="float: left;">
 <h1 id="project-gallery">Project Gallery</h1>
@@ -401,26 +405,37 @@ Project Gallery
 </div>
 </div>
 <hr class="hr-orange">
-<p>&lt;!– ———————————————————————- –!&gt; <!--Begin page content!--></p>
+<!-- ---------------------------------------------------------------------- -->
+<!--Begin page content!-->
 <!--Setup tabs!-->
 <div class="tab">
 <button class="tabtitle" onclick="#">
 Select a Gallery:
 </button>
-<button class="tablink" onclick="openPage(&#39;1&#39;, this, &#39;#DE4815&#39;)" id="defaultOpen">
+<button class="tablink" onclick="openPage('1', this, '#DE4815')" id="defaultOpen">
 Project Inaugural Meetings, Glasgow
 </button>
-<button class="tablink" onclick="openPage(&#39;2&#39;, this, &#39;#DE4815&#39;)">
+<button class="tablink" onclick="openPage('2', this, '#DE4815')">
 Governor Meeting, Philippines
 </button>
-<button class="tablink" onclick="openPage(&#39;3&#39;, this, &#39;#DE4815&#39;)">
+<button class="tablink" onclick="openPage('3', this, '#DE4815')">
 FETPAFI Meeting, Philippines
 </button>
-<button class="tablink" onclick="openPage(&#39;4&#39;, this, &#39;#DE4815&#39;)">
+<button class="tablink" onclick="openPage('4', this, '#DE4815')">
 IBCM Training, San Jose, Philippines
 </button>
+<button class="tablink" onclick="openPage('5', this, '#DE4815')">
+Provincial Launch, Oriental Mindoro, Philippines
+</button>
+<button class="tablink" onclick="openPage('6', this, '#DE4815')">
+IBCM Training, Roxas, Oriental Mindoro, Philippines
+</button>
+<button class="tablink" onclick="openPage('7', this, '#DE4815')">
+Field-work
+</button>
 </div>
-&lt;!– ———————————————————————- –!&gt; <!-- Tab 1 content -->
+<!-- ---------------------------------------------------------------------- -->
+<!-- Tab 1 content -->
 <div id="1" class="tabcontent">
 <h3>
 Project Inaugural Meetings, Glasgow
@@ -548,7 +563,8 @@ Project Inaugural Meetings, Glasgow
 <p><!-- End Lightbox --></p>
 </div>
 <p><!-- End Tab 1 --></p>
-&lt;!– ———————————————————————- –!&gt; <!-- Tab 2 content -->
+<!-- ---------------------------------------------------------------------- -->
+<!-- Tab 2 content -->
 <div id="2" class="tabcontent">
 <h3 id="GM_gallery">
 Governor Meeting, Philippines
@@ -604,7 +620,8 @@ Governor Meeting, Philippines
 <p><!-- End Lightbox --></p>
 </div>
 <p><!-- End Tab 2 --></p>
-&lt;!– ———————————————————————- –!&gt; <!-- Tab 3 content -->
+<!-- ---------------------------------------------------------------------- -->
+<!-- Tab 3 content -->
 <div id="3" class="tabcontent">
 <h3>
 FETPAFI Meeting, Philippines
@@ -678,7 +695,8 @@ FETPAFI Meeting, Philippines
 <p><!-- End Lightbox --></p>
 </div>
 <p><!-- End Tab 3 --></p>
-&lt;!– ———————————————————————- –!&gt; <!-- Tab 4 content -->
+<!-- ---------------------------------------------------------------------- -->
+<!-- Tab 4 content -->
 <div id="4" class="tabcontent">
 <h3>
 IBCM Training, San Jose, Philippines
@@ -770,6 +788,115 @@ IBCM Training, San Jose, Philippines
 <p><!-- End Lightbox --></p>
 </div>
 <p><!-- End Tab 4 --></p>
+<!-- ---------------------------------------------------------------------- -->
+<!-- Tab 5 content -->
+<div id="5" class="tabcontent">
+<h3>
+Provincial Launch, Oriental Mindoro, Philippines
+</h3>
+<p><em>Photos coming soon</em></p>
+</div>
+<!-- ---------------------------------------------------------------------- -->
+<!-- Tab 6 content -->
+<div id="6" class="tabcontent">
+<h3>
+IBCM Training, Roxas, Oriental Mindoro, Philippines
+</h3>
+<p><em>Photos coming soon</em></p>
+</div>
+<!-- ---------------------------------------------------------------------- -->
+<!-- Tab 7 content -->
+<div id="7" class="tabcontent">
+<h3>
+Field-work
+</h3>
+<p><em>Please click on a photo to view</em></p>
+<!-- Images used to open the lightbox -->
+<div class="row">
+<div class="column">
+<p><img src="img/gallery/field_work_1.jpg" onclick="openModal7();currentSlide7(1)" class="demo7 hover-shadow" alt=""></p>
+</div>
+<div class="column">
+<p><img src="img/gallery/field_work_2.jpg" onclick="openModal7();currentSlide7(2)" class="demo7 hover-shadow" alt=""></p>
+</div>
+<div class="column">
+<p><img src="img/gallery/field_work_3.jpg" onclick="openModal7();currentSlide7(3)" class="demo7 hover-shadow" alt=""></p>
+</div>
+<div class="column">
+<p><img src="img/gallery/field_work_4.jpg" onclick="openModal7();currentSlide7(4)" class="demo7 hover-shadow" alt=""></p>
+</div>
+<div class="column">
+<p><img src="img/gallery/field_work_5.jpg" onclick="openModal7();currentSlide7(5)" class="demo7 hover-shadow" alt=""></p>
+</div>
+<div class="column">
+<p><img src="img/gallery/field_work_6.jpg" onclick="openModal7();currentSlide7(6)" class="demo7 hover-shadow" alt=""></p>
+</div>
+<div class="column">
+<p><img src="img/gallery/field_work_7.jpg" onclick="openModal7();currentSlide7(7)" class="demo7 hover-shadow" alt=""></p>
+</div>
+</div>
+<p><!-- End Gallery --></p>
+<!-- The Modal/Lightbox -->
+<div id="myModal7" class="modal">
+<div class="modal-content">
+<p><span class="close_modal cursor" onclick="closeModal7()">×</span></p>
+<!-- Images in Lightbox -->
+<div class="mySlides7">
+<div class="numbertext">
+1 / 7
+</div>
+<p><img src="img/gallery/field_work_1.jpg" class="modal-img-resp"></p>
+</div>
+<div class="mySlides7">
+<div class="numbertext">
+2 / 7
+</div>
+<p><img src="img/gallery/field_work_2.jpg" class="modal-img-resp"></p>
+</div>
+<div class="mySlides7">
+<div class="numbertext">
+3 / 7
+</div>
+<p><img src="img/gallery/field_work_3.jpg" class="modal-img-resp"></p>
+</div>
+<div class="mySlides7">
+<div class="numbertext">
+4 / 7
+</div>
+<p><img src="img/gallery/field_work_4.jpg" class="modal-img-resp"></p>
+</div>
+<div class="mySlides7">
+<div class="numbertext">
+5 / 7
+</div>
+<p><img src="img/gallery/field_work_5.jpg" class="modal-img-resp"></p>
+</div>
+<div class="mySlides7">
+<div class="numbertext">
+6 / 7
+</div>
+<p><img src="img/gallery/field_work_6.jpg" class="modal-img-resp"></p>
+</div>
+<div class="mySlides7">
+<div class="numbertext">
+7 / 7
+</div>
+<p><img src="img/gallery/field_work_7.jpg" class="modal-img-resp"></p>
+</div>
+<!-- Next/previous controls -->
+<p><a class="prev" onclick="plusSlides7(-1)">❮</a> <a class="next" onclick="plusSlides7(1)">❯</a></p>
+<!-- Caption text -->
+<div class="caption-container">
+<p id="caption7">
+</p>
+</div>
+<p><!-- End Caption --></p>
+</div>
+<p><!-- End Modal content --></p>
+</div>
+<p><!-- End Lightbox --></p>
+</div>
+<p><!-- End Tab 7 --></p>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <div class="footer">

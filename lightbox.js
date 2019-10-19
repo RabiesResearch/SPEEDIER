@@ -185,3 +185,57 @@ function showSlides4(n) {
   dots4[slideIndex4-1].className += " active";
   captionText4.innerHTML = dots4[slideIndex4-1].alt;
 }
+
+
+// ----------------------------------------------------------------------------
+// LIGHTBBOX 5 - Provincial Launch, Oriental Mindoro, Philippines (0 PHOTOS)
+
+// ----------------------------------------------------------------------------
+// LIGHTBBOX 6 - IBCM Training, Roxas, Oriental Mindoro, Philippines (7 PHOTOS)
+
+// ----------------------------------------------------------------------------
+// LIGHTBBOX 7 - Field-work (7 PHOTOS)
+
+// Open the Modal
+function openModal7() {
+  document.getElementById('myModal7').style.display = "block";
+}
+
+// Close the Modal
+function closeModal7() {
+  document.getElementById('myModal7').style.display = "none";
+}
+
+var slideIndex7 = 1;
+showSlides7(slideIndex7);
+
+// Next/previous controls
+function plusSlides7(n) {
+  showSlides7(slideIndex7 += n);
+}
+
+// Thumbnail image controls
+function currentSlide7(n) {
+  showSlides7(slideIndex7 = n);
+}
+
+// Select slides
+function showSlides7(n) {
+  var First_slide7 = 1;
+  var Last_slide7 = 7;
+  var i7;
+  var slides7 = document.getElementsByClassName("mySlides7");
+  var dots7 = document.getElementsByClassName("demo7");
+  var captionText7 = document.getElementById("caption7");
+  if (n > Last_slide7) {slideIndex7 = First_slide7}
+  if (n < First_slide7) {slideIndex7 = Last_slide7}
+  for (i7 = 0; i7 < Last_slide7; i7++) {
+      slides7[i7].style.display = "none";
+  }
+  for (i7 = 0; i7 < dots7.length; i7++) {
+      dots7[i7].className = dots7[i7].className.replace(" active", "");
+  }
+  slides7[slideIndex7-1].style.display = "block";
+  dots7[slideIndex7-1].className += " active";
+  captionText7.innerHTML = dots7[slideIndex7-1].alt;
+}

@@ -42,6 +42,9 @@ title: ""
 <button class="tablink" onclick="openPage('2', this, '#DE4815')">Governor Meeting, Philippines</button>
 <button class="tablink" onclick="openPage('3', this, '#DE4815')">FETPAFI Meeting, Philippines</button>
 <button class="tablink" onclick="openPage('4', this, '#DE4815')">IBCM Training, San Jose, Philippines</button>
+<button class="tablink" onclick="openPage('5', this, '#DE4815')">Provincial Launch, Oriental Mindoro, Philippines</button>
+<button class="tablink" onclick="openPage('6', this, '#DE4815')">IBCM Training, Roxas, Oriental Mindoro, Philippines</button>
+<button class="tablink" onclick="openPage('7', this, '#DE4815')">Field-work</button>
 </div>
 
 <!-- ---------------------------------------------------------------------- --!>
@@ -349,3 +352,97 @@ title: ""
 </div> <!-- End Modal content -->
 </div> <!-- End Lightbox -->
 </div> <!-- End Tab 4 -->
+
+<!-- ---------------------------------------------------------------------- --!>
+<!-- Tab 5 content -->
+<div id="5" class="tabcontent">
+<h3>Provincial Launch, Oriental Mindoro, Philippines</h3>
+<em>Photos coming soon</em>
+</div>
+
+<!-- ---------------------------------------------------------------------- --!>
+<!-- Tab 6 content -->
+<div id="6" class="tabcontent">
+<h3>IBCM Training, Roxas, Oriental Mindoro, Philippines</h3>
+<em>Photos coming soon</em>
+</div>
+
+<!-- ---------------------------------------------------------------------- --!>
+<!-- Tab 7 content -->
+<div id="7" class="tabcontent">
+<h3>Field-work</h3>
+<em>Please click on a photo to view</em>
+
+<!-- Images used to open the lightbox -->
+<div class="row">
+<div class="column">
+<img src="img/gallery/field_work_1.jpg" onclick="openModal7();currentSlide7(1)" class="demo7 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/field_work_2.jpg" onclick="openModal7();currentSlide7(2)" class="demo7 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/field_work_3.jpg" onclick="openModal7();currentSlide7(3)" class="demo7 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/field_work_4.jpg" onclick="openModal7();currentSlide7(4)" class="demo7 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/field_work_5.jpg" onclick="openModal7();currentSlide7(5)" class="demo7 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/field_work_6.jpg" onclick="openModal7();currentSlide7(6)" class="demo7 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/field_work_7.jpg" onclick="openModal7();currentSlide7(7)" class="demo7 hover-shadow" alt="">
+</div>
+
+</div> <!-- End Gallery -->
+
+<!-- The Modal/Lightbox -->
+<div id="myModal7" class="modal">
+<div class="modal-content">
+<span class="close_modal cursor" onclick="closeModal7()">&times;</span>
+
+<!-- Images in Lightbox -->
+<div class="mySlides7">
+<div class="numbertext">1 / 7</div>
+<img src="img/gallery/field_work_1.jpg" class="modal-img-resp">
+</div>
+<div class="mySlides7">
+<div class="numbertext">2 / 7</div>
+<img src="img/gallery/field_work_2.jpg" class="modal-img-resp">
+</div>
+<div class="mySlides7">
+<div class="numbertext">3 / 7</div>
+<img src="img/gallery/field_work_3.jpg" class="modal-img-resp">
+</div>
+<div class="mySlides7">
+<div class="numbertext">4 / 7</div>
+<img src="img/gallery/field_work_4.jpg" class="modal-img-resp">
+</div>
+<div class="mySlides7">
+<div class="numbertext">5 / 7</div>
+<img src="img/gallery/field_work_5.jpg" class="modal-img-resp">
+</div>
+<div class="mySlides7">
+<div class="numbertext">6 / 7</div>
+<img src="img/gallery/field_work_6.jpg" class="modal-img-resp">
+</div>
+<div class="mySlides7">
+<div class="numbertext">7 / 7</div>
+<img src="img/gallery/field_work_7.jpg" class="modal-img-resp">
+</div>
+
+<!-- Next/previous controls -->
+<a class="prev" onclick="plusSlides7(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides7(1)">&#10095;</a>
+
+<!-- Caption text -->
+<div class="caption-container">
+<p id="caption7"></p>
+</div> <!-- End Caption -->
+
+</div> <!-- End Modal content -->
+</div> <!-- End Lightbox -->
+</div> <!-- End Tab 7 -->
