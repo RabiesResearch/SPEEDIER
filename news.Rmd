@@ -51,8 +51,8 @@ title: ""
 </a>
 </div>
 <!--Add text-->
-"Dahil rabies free na kayo, dapat intensive ang animal surveillance."
-- Dr. Daria Manalo, Section Head of Research, Veterinary Research Department, RITM. <br>
+>"Dahil rabies free na kayo, dapat intensive ang animal surveillance."
+> `r tufte::quote_footer('Dr. Daria Manalo, Section Head of Research, Veterinary Research Department, RITM')` 
 
 On June 3-4, 2019, the first batch of Integrated Bite Case Management (IBCM)
 Training was conducted for the municipality of San Jose, Province of Romblon.
@@ -172,11 +172,12 @@ Philippines (SPEEDIER)".
 Rabies is an encephalitis that is 100% fatal in humans, but is also 100% preventable 
 if prophylactic measures are instituted immediately after exposure. These include 
 thorough wound cleaning and administration of potent and effective vaccines and 
-rabies immunoglobulin. <br>
+rabies immunoglobulin (RIG). <br>
 
 On March 11-13th 2019, SPEEDIER Project Associate Rosemarie Jane Arroyo attended 
 the Training Course on Rabies, Animal Bite Management and Leprosy Recognition 
 conducted by the Research Institute of Tropical Medicine (RITM). <br>
+
 The skills and knowledge gained from the training will be crucial in the 
 implementation of FETPAFI's SPEEDIER (rabies elimination) project.
 
@@ -201,13 +202,13 @@ implementation of FETPAFI's SPEEDIER (rabies elimination) project.
 <!--Add text-->
 SPEEDIER (Surveillance Integrating Phylogenetics and Epidemiology for Elimination 
 of Disease: Evaluation of Rabies Control in the Philippines) is a 3-year project 
-of FETPAFI in collaboration with University of Glasgow, DOST-Philippine Council 
+of FETPAFI in collaboration with the University of Glasgow, DOST-Philippine Council 
 for Health Research and Development, Research Institute for Tropical Medicine and 
 Department of Health. <br>
 
 This multi-million project aims to deliver a cost-effective, epidemiologically 
 robust, enhanced surveillance and response package to guide and sustain the 
-elimination of RABIES from the Philippines.
+elimination of Rabies from the Philippines.
 
 <!-- Link back to top of the page --> 
 <p class="top"><a href="#page_top">Back to top <i class="fas fa-arrow-alt-circle-up"></i></a></p>
